@@ -5,7 +5,8 @@
 #
 
 set -e
-
+apt-get update
+apt-get install python-dev
 ARCH=""
 PYBINARIES=""
 PYTHON_LIBRARY=""
